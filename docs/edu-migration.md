@@ -30,9 +30,10 @@
 
 ### 1. 公共基础验证
 
-- [ ] 验证 `@lingcoo/security` 与旧版 scrypt 密码格式兼容；
-- [ ] 验证 `@lingcoo/crypto` 替换旧 `settings-crypto`；
-- [ ] 验证 `@lingcoo/http` 对齐 API 错误响应；
+- [x] 通过外部 npm package 验证 `@lingcoo-tech/security`，并保留旧版 scrypt 兼容测试；
+- [x] 通过外部 npm package 验证 `@lingcoo-tech/crypto` 加解密 contract；
+- [x] 通过外部 npm package 验证 `@lingcoo-tech/http` 错误响应 contract；
+- [x] 发布 `@lingcoo-tech/security`、`@lingcoo-tech/crypto`、`@lingcoo-tech/http` 和 `@lingcoo-tech/mailer` 的 `0.1.0`；
 - [ ] 判断是否还需要 Edu 专用的公共能力。
 
 ### 2. 后端基础迁移
